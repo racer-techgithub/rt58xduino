@@ -14,7 +14,7 @@
                     "architecture": "rt58x",
                     "version": "0.1.0",
                     "category": "Contributed",
-                    "url": "http://127.0.0.1:8000/arduinocore-rt58x.zip",
+                    "url": "https://raw.githubusercontent.com/chain40/chain40.github.io/main/arduinocore-rt58x.zip",
                     "archiveFileName": "arduinocore-rt58x.zip",
                     "checksum": "SHA-256:FF71BFEB72EA2095DCDE5B8FBB4EA3293FA16DAABC18293C17B9AC9F2B12CFC7",
                     "size": "4691919",
