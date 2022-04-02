@@ -12,7 +12,7 @@
                 {
                     "name": "RT58X Boards (Cortex-M3)",
                     "architecture": "rt58x",
-                    "version": "0.1.1",
+                    "version": "0.2.0",
                     "category": "Contributed",
                     "url": "https://raw.githubusercontent.com/racer-techgithub/rt58xduino/main/arduinocore-rt58x.zip",
                     "archiveFileName": "arduinocore-rt58x.zip",
