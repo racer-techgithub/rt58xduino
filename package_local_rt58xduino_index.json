@@ -12,12 +12,12 @@
                 {
                     "name": "RT58X Boards (Cortex-M3)",
                     "architecture": "rt58x",
-                    "version": "0.1.1",
+                    "version": "0.3.0",
                     "category": "Contributed",
-                    "url": "http://127.0.0.1:8000/arduinocore-rt58x.zip",
-                    "archiveFileName": "arduinocore-rt58x.zip",
-                    "checksum": "SHA-256:FF71BFEB72EA2095DCDE5B8FBB4EA3293FA16DAABC18293C17B9AC9F2B12CFC7",
-                    "size": "4691919",
+                    "url": "http://127.0.0.1:8000/local.zip",
+                    "archiveFileName": "local.zip",
+                    "checksum": "SHA-256:E672BE4458BCBCF216BA2FD6E5F3B8414C45F816DDF95EC9D04D5510BFA0D60D",
+                    "size": "4696923",
                     "boards": {
                         "name": "RT581 EVK"
                     },
