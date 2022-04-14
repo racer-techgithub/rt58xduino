@@ -12,6 +12,26 @@
                 {
                     "name": "RT58X Boards (Cortex-M3)",
                     "architecture": "rt58x",
+                    "version": "0.4.0",
+                    "category": "Contributed",
+                    "url": "http://127.0.0.1:8000/local_v0.4.0.zip",
+                    "archiveFileName": "local_v0.4.0.zip",
+                    "checksum": "SHA-256:E4E730C5A5F08EFC554362FDD659E4A5EEE34C43A9DF3A314626B422C07FCC94",
+                    "size": "4950397",
+                    "boards": {
+                        "name": "RT581 EVK"
+                    },
+                    "toolsDependencies": [
+                        {
+                            "packager": "rt58xduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "10.3-2021.10"
+                        }
+                    ]
+                },
+                {
+                    "name": "RT58X Boards (Cortex-M3)",
+                    "architecture": "rt58x",
                     "version": "0.3.2",
                     "category": "Contributed",
                     "url": "http://127.0.0.1:8000/local_v0.3.2.zip",
