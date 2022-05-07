@@ -12,6 +12,26 @@
                 {
                     "name": "RT58X Boards (Cortex-M3)",
                     "architecture": "rt58x",
+                    "version": "0.5.0",
+                    "category": "Contributed",
+                    "url": "https://raw.githubusercontent.com/racer-techgithub/rt58xduino/main/arduinocore-rt58x_v0.5.0.zip",
+                    "archiveFileName": "arduinocore-rt58x_v0.5.0.zip",
+                    "checksum": "SHA-256:CFAB57F97779C2803BA2CF9E6D35B86B7DF3388C738E30BD77F2B263082A3BC9",
+                    "size": "2269113",
+                    "boards": {
+                        "name": "RT581 EVK"
+                    },
+                    "toolsDependencies": [
+                        {
+                            "packager": "rt58xduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "10.3-2021.10"
+                        }
+                    ]
+                },
+                {
+                    "name": "RT58X Boards (Cortex-M3)",
+                    "architecture": "rt58x",
                     "version": "0.4.0",
                     "category": "Contributed",
                     "url": "https://raw.githubusercontent.com/racer-techgithub/rt58xduino/main/arduinocore-rt58x_v0.4.0.zip",
