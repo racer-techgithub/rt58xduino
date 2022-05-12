@@ -12,10 +12,35 @@
                 {
                     "name": "RT58X Boards (Cortex-M3)",
                     "architecture": "rt58x",
+                    "version": "0.5.2",
+                    "category": "Contributed",
+                    "url": "http://127.0.0.1:8000/local_v0.5.2.tar.bz2",
+                    "archiveFileName": "local_v0.5.2.tar.bz2",
+                    "checksum": "SHA-256:14F4B9F92697B46B1BF59B7716584BF00CF7488A87FCAAD2A00038A26CF5965E",
+                    "size": "1524139",
+                    "boards": {
+                        "name": "RT581 EVK"
+                    },
+                    "toolsDependencies": [
+                        {
+                            "packager": "rt58xduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "10.3-2021.10"
+                        },
+                        {
+                            "packager": "rt58xduino",
+                            "name": "isp_tool",
+                            "version": "1.0.0"
+                        }
+                    ]
+                },
+                {
+                    "name": "RT58X Boards (Cortex-M3)",
+                    "architecture": "rt58x",
                     "version": "0.5.1",
                     "category": "Contributed",
                     "url": "http://127.0.0.1:8000/local_v0.5.1.tar.bz2",
-                    "archiveFileName": "arduinocore-rt58x_v0.5.1.tar.bz2",
+                    "archiveFileName": "local_v0.5.1.tar.bz2",
                     "checksum": "SHA-256:633EF77A27D9F01AADCD4C35B23D651D1EDDF9923FD60D0F8218FED37E719FF8",
                     "size": "1524083",
                     "boards": {
@@ -131,6 +156,19 @@
                 }
             ],
             "tools": [
+                {
+                    "name": "isp_tool",
+                    "version": "1.0.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "archiveFileName": "isp_tool-1.0.0.tar.bz2",
+                            "url": "http://127.0.0.1:8000/isp_tool-1.0.0.tar.bz2",
+                            "checksum": "SHA-256:30A6A8AC5ABCBFE390035D9B58E53EFD7328BD28E927B17A730475EA2A0A2AA5",
+                            "size": "8220937"
+                        }
+                    ]
+                },
                 {
                     "name": "arm-none-eabi-gcc",
                     "version": "10.3-2021.10",
