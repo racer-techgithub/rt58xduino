@@ -12,6 +12,33 @@
                 {
                     "name": "rt58x Boards (Cortex-M3)",
                     "architecture": "rt58x",
+                    "version": "1.0.2",
+                    "category": "Contributed",
+                    "url": "http://127.0.0.1:8000/local_v1.0.2.tar.bz2",
+                    "archiveFileName": "local_v1.0.2.tar.bz2",
+                    "checksum": "SHA-256:cda71770cb92b3edee6220adbc17690020aa33b69a3d16e6e90b893964d8828c",
+                    "size": "2540770",
+                    "boards": [
+                        {
+                            "name": "rt58x nano"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "rt58xduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "10.3-2021.10"
+                        },
+                        {
+                            "packager": "rt58xduino",
+                            "name": "isp_tool",
+                            "version": "1.0.0"
+                        }
+                    ]
+                },
+                {
+                    "name": "rt58x Boards (Cortex-M3)",
+                    "architecture": "rt58x",
                     "version": "1.0.1",
                     "category": "Contributed",
                     "url": "http://127.0.0.1:8000/local_v1.0.1.tar.bz2",
